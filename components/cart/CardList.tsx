@@ -1,6 +1,5 @@
 import NextLink from 'next/link'
 import { Box, Button, CardActionArea, cardActionAreaClasses, CardMedia, Grid, Link, Typography } from '@mui/material';
-import { initialData } from '../../database/products';
 import { ItemCounter } from '../ui';
 import { PropsWithChildren, useContext } from 'react';
 import { CartContext } from '../../context';
